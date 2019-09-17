@@ -10,15 +10,18 @@
     margin-bottom: 10px;
     margin-top: 10px;
     margin-bottom: 10px;
-    display: flex;
+    height: 10vw;
 }
 
-.margin-left {
-    margin-left: auto;
-}
-
-.project_status, .campus_name{
+.project_status, .campus_name, .fleche{
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: center;  
+    height: 10vw;
+}
+
+.fleche{font-size: 40px}
+
+.margin-right{
+    margin-right: auto
 }
