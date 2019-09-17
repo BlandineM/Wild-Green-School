@@ -16,7 +16,7 @@ p{
 
 /*The project*/ 
 .bg_image{
-    background:url(https://via.placeholder.com/720x90);
+    background:url(img/grass.png);
     background-repeat: no-repeat; 
     color: white;
     background-position: center;
@@ -39,7 +39,6 @@ p{
 .carousel-caption{
     color: black;
     text-align: center;
-
 }
 
    
