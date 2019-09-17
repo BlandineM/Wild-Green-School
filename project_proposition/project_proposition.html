@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="project_proposition.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>Propose your Wild Green project</h1>
+    <div class="container"></div>
+    <form>
+        <div class="row">
+            <div class="form-group col-8">
+                <label for="email_form">Email address</label>
+                <input type="email" class="form-control" id="email_form" value="name@example.com" readonly="readonly">
+            </div>
+        </div>
+        <div class="row">
+            <div class="form-group col-8">
+                <label for="name_form">Your name</label>
+                <input type="name" class="form-control" id="name_form" value="La Blandoche" readonly="readonly">
+
+            </div>
+        </div>
+        <div class="row">
+            <div class="form-group col-8">
+                <label for="campus_form">Campus</label>
+                <input type="text" class="form-control" id="campus_form" value="Lille" readonly="readonly">
+            </div>
+        </div>
+        <div class="row">
+            <div class="form-group col-8">
+                <label for="purpose_form">What is the purpose of your project?</label>
+                <select class="form-control" value="Project theme" id="purpose_form">
+                    <option>Waste reduction</option>
+                    <option>Partnership</option>
+                    <option>Energy saver</option>
+                    <option>Other</option>
+                </select>
+            </div>
+        </div>
+        <div class="form-group">
+            <textarea class="form-control" rows="3" placeholder="Present here, in a few lines, your project"></textarea>
+        </div>
+
+        <div class="form-group">
+            <textarea class="form-control" rows="3"
+                placeholder="Explain here what is the aim of your project and waht will be the gain for the Wilders"></textarea>
+        </div>
+
+        <div class="form-group">
+            <textarea class="form-control" rows="3"
+                placeholder="If you can, tell us of much the budget is to reach your project goal"></textarea>
+        </div>
+        <div class="form-group">
+            <label for="image_form">You can upload an image to present your project. If you don't, we will add
+                automatically an image depending of the project purpose selected above</label>
+            <input type="file" class="form-control" id="image_form" rows="3"
+                placeholder="If you can, tell us of much the budget is to reach your project goal">
+        </div>
+
+
+    </form>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
