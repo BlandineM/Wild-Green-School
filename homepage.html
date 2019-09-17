@@ -1,36 +1,85 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <title>Wild Green School</title>
-</head>
+        <!-----------------------------------BOOTSTRAP/JS------------------------------> 
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 
-<body>
-    <main>
-        <section >
-            <h2>The project</h2>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veritatis alias odit voluptas nemo ad, enim aspernatur sapiente, ut laboriosam fuga nihil, quas corporis. Neque ipsam corrupti excepturi accusantium eaque eum.</p>
-        </section>
-        <section>
-            Ongoing project
-        </section>
-        <section>
-            Completed projects
-        </section>
-        <section>
-            Propose a project
-        </section>
-        <section>
-            Vote for a project
-        </section>
-        <section>
-            <h2>News</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed ipsum, harum dolorem porro et voluptates animi, vero amet error distinctio sint sit rem beatae ut explicabo aspernatur quidem at praesentium.</p>
-        </section>
-    </main>
-</body>
+        <title>Wild Green School</title>
+    </head>
+
+    <header>
+        <!-----------------------------------NAVBAR------------------------------> 
+        <nav class="navbar navbar-expand-sm navbar-light bg-success">
+
+            <!-------------------Wild_Code_Logo--------------->
+            <a class="navbar-brand" href="#">
+                <img src="https://raw.githubusercontent.com/HarleyBurton/Wild-Green-School/nav/img/logo_main.png" width="100" height="" alt=""></a>
+
+            <!-------------------Menu_Burger_Mobile--------------->
+            <button class="navbar-toggler " type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbar-collapse-1">
+
+                <!----------------- Dropdown_Campus ---------------->
+                <ul class="nav navbar-nav">
+                    <li class="dropdown"><a href="#" class="nav-link dropdown-toggle text-white" data-toggle="dropdown">Campus</a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+
+                            <li><a class="dropdown-item" href="#">My campus</a></li>
+                            <li><a class="dropdown-item" href="#">Other campus</a></li>
+                        </ul>
+                    </li>
+                    <!----------------- Dropdown_PROJECT ---------------->
+                    <li class="dropdown"><a href="#" class="nav-link dropdown-toggle text-white" data-toggle="dropdown">Project</a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+
+                            <li><a class="dropdown-item" href="#">In progress</a></li>
+                            <li><a class="dropdown-item" href="#">Completed</a></li>
+                            <li><a class="dropdown-item" href="#">Vote</a></li>
+                            <li><a class="dropdown-item" href="#">Propose</a></li>
+                        </ul>
+                    </li>
+
+                    <li><a class="nav-link text-white" href="#">Blog</a></li>
+
+                    <li><a class="nav-link text-white" href="#">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <body>
+        <main>
+            <section >
+                <h2>The project</h2>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veritatis alias odit voluptas nemo ad, enim aspernatur sapiente, ut laboriosam fuga nihil, quas corporis. Neque ipsam corrupti excepturi accusantium eaque eum.</p>
+            </section>
+            <section>
+                Ongoing project
+            </section>
+            <section>
+                Completed projects
+            </section>
+            <section>
+                Propose a project
+            </section>
+            <section>
+                Vote for a project
+            </section>
+            <section>
+                <h2>News</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed ipsum, harum dolorem porro et voluptates animi, vero amet error distinctio sint sit rem beatae ut explicabo aspernatur quidem at praesentium.</p>
+            </section>
+        </main>
+    </body>
 
 </html>
