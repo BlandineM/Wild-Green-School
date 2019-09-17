@@ -1,0 +1,37 @@
+*{
+    font-family: raleway;
+    text-align: justify;
+
+}
+p{
+    font-size: 2vh;
+    text-align: center;
+    align-items: center;
+    margin: 1vh;
+    
+    
+}
+.bg_image{
+    
+    background-repeat: no-repeat; color: white;
+    background-position: center;
+    height: 200px;
+    display: flex;
+    align-items: flex-end;
+    
+}
+#bg_opacity{
+    background-color: rgba(140, 146, 142, 0.8);
+    text-align: justify;
+
+    width: 100%
+}
+.carousel-caption d-block{
+    color: black;
+}
+
+   
+    
+
+    
+
