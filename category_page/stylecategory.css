@@ -1,0 +1,27 @@
+*{
+    font-family: 'Raleway', sans-serif;
+}
+
+.category_container{
+    border: 2px;
+    border-top-style: solid;
+    border-color: black;
+    border-bottom-style: solid;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    height: 10vw;
+}
+
+.project_status, .campus_name, .fleche{
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+    height: 10vw;
+}
+
+.fleche{font-size: 40px}
+
+.margin-right{
+    margin-right: auto
+}
