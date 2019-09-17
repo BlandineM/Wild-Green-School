@@ -1,33 +1,45 @@
+.news{
+    margin-top:50px;
+}
+
 *{
     font-family: raleway;
     text-align: justify;
-
 }
+
 p{
     font-size: 2vh;
     text-align: center;
     align-items: center;
-    margin: 1vh;
-    
-    
+    margin: 1vh; 
 }
+
+/*The project*/ 
 .bg_image{
-    
-    background-repeat: no-repeat; color: white;
+    background:url(https://via.placeholder.com/720x90);
+    background-repeat: no-repeat; 
+    color: white;
     background-position: center;
+    background-size: cover;
     height: 200px;
     display: flex;
-    align-items: flex-end;
-    
+    align-items: flex-end  
 }
+
 #bg_opacity{
     background-color: rgba(140, 146, 142, 0.8);
-    text-align: justify;
-
-    width: 100%
+    text-align: center;
+    width: 100%;
+    align-items: center;
 }
-.carousel-caption d-block{
+
+
+/*Caroussel*/
+
+.carousel-caption{
     color: black;
+    text-align: center;
+
 }
 
    
