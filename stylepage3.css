@@ -2,7 +2,10 @@
     padding:0;
     margin:0;
     font-family: 'Raleway', sans-serif;
+    box-sizing:border-box;
 }
+
+
 
 main :nth-child(2) section {
     display:flex;
@@ -29,7 +32,33 @@ h2 {
     font-size:30px;
 }
 
-@media screen and (min-width: 992px) {
-    .Titres {
+@media screen and (min-width: 1200px) {
+    .displayChange {
+        display:inline-block;
+        width:30%;
+    }
+    main :first-child :nth-child(2) {
         display:inline-block;
     }
+    main :first-child :nth-child(5) {
+        margin-left:400px;
+    }
+    main :nth-child(2) {
+        text-align:center;
+    }
+    main :first-child :nth-child(2) p {
+        width:70%;
+        margin:auto;
+        margin:20px 0 0 0;
+    }
+    .Titres {
+        padding:50px 0 0 0;
+    }
+}
+
+@media screen and (min-width: 1400px) {
+    .displayChange {
+        width:35%;
+    }
+
+}
