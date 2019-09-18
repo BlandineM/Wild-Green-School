@@ -30,9 +30,12 @@ main :nth-child(2) section {
     margin:auto;
     color:var(--secondcolor);
     vertical-align:top;
-    text-align:center;
+    text-align:left;
 }
-
+.Titres {
+    padding:50px 0 50px 40px;
+    
+}
 .left {
     border-left-style:solid;
     border-color:var(--maincolor)
@@ -91,7 +94,7 @@ h2 {
         margin:20px 0 0 0;
     }
     .Titres {
-        padding:50px 0 0 0;
+        padding:50px 0 0 40px;
         
     }
     .textAlignRight {
