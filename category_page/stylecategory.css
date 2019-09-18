@@ -3,25 +3,28 @@
 }
 
 .category_container{
-    border: 2px;
-    border-top-style: solid;
-    border-color: black;
-    border-bottom-style: solid;
     margin-bottom: 10px;
-    margin-top: 10px;
     margin-bottom: 10px;
-    height: 10vw;
+    height: auto;
 }
 
 .project_status, .campus_name, .fleche{
     display: flex;
-    justify-content: center;
+    
     align-items: center;  
-    height: 10vw;
+    height: auto;
 }
 
-.fleche{font-size: 40px}
+.fleche{font-size: 40px;
+    justify-content: center;
+}
 
 .margin-right{
     margin-right: auto
+}
+
+.projectname{
+    
+    font-size: 2em;
+    margin-bottom: 10px;
 }
