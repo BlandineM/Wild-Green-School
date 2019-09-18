@@ -3,10 +3,13 @@
 *{
     font-family: raleway;
     text-align: justify;
+    margin: 0;
+    padding: 0;
+    
 }
 
 p{
-    font-size: 3vh;
+    font-size: 15px;
     text-align: center;
     align-items: center;
     margin: 1vw; 
@@ -14,10 +17,12 @@ p{
 }
 h2{
     font-weight: bold;
+    font-size: 30px;
 }
 /*Mobil*/
 /*The project*/ 
 .bg_image{
+    visibility: hidden;
     background:url(img/grass.png);
     background-repeat: no-repeat; 
     color: white;
@@ -33,6 +38,7 @@ h2{
     text-align: center;
     width: 100%;
     align-items: center;
+    visibility: visible;
 }
 
 
@@ -40,7 +46,7 @@ h2{
 
 .carousel-caption{
     color: black;
-    text-align: center;
+    text-align: end;
 }
 
 .news{
@@ -49,7 +55,15 @@ h2{
 
 /*Destop*/
 @media screen and (min-width :961px){
-    
+    .bg_image{
+        visibility: visible;
+    }
+    h2{
+        font-size: 35px;
+    }
+    P{
+        font-size: 20px;
+    }
 }
    
     
