@@ -1,0 +1,80 @@
+* {
+    padding:0;
+    margin:0;
+    font-family: 'Raleway', sans-serif;
+    box-sizing:border-box;
+}
+
+
+main :nth-child(2) section {
+    display:flex;
+    justify-content:space-evenly;
+}
+
+.Titres {
+    display:flex;
+    align-content: center;
+    flex-direction: column;
+    text-align:center;
+    width:400px;
+    margin:auto;
+    color:green;
+    vertical-align:top;
+    
+}
+
+.titre2 {
+    text-align:center;
+}
+
+.textAlignRight {
+    text-align:right;
+}
+
+
+h2 {
+    font-size:30px;
+}
+
+.card-img-top {
+    height:240px;
+}
+
+@media screen and (min-width: 960px) {
+    .displayChange {
+        display:inline-block;
+        width:30%;
+        padding:40px 0;
+        vertical-align:top;
+    }
+    main :first-child :nth-child(2) {
+        display:inline-block;
+    }
+    main :first-child :nth-child(5) {
+        margin-left:400px;
+    }
+    main :nth-child(2) {
+        text-align:center;
+    }
+    main :first-child :nth-child(2) p {
+        width:70%;
+        margin:auto;
+        margin:20px 0 0 0;
+    }
+    .Titres {
+        padding:50px 0 0 0;
+        
+    }
+    .textAlignRight {
+        text-align:left;
+    }
+
+    
+}
+
+@media screen and (min-width: 1400px) {
+    .displayChange {
+        width:35%;
+    }
+
+}
