@@ -1,3 +1,6 @@
+.categorie_title {
+    font-size: 20px;
+}
 @media screen and (min-width:992px) {
 .container1 {
     width:80%;
@@ -7,4 +10,13 @@
     width:80%;
     margin:0 auto;
 }
+.list1 {
+    color: black;
+    margin-top: 20px;
 }
+.categorie_title {
+    font-size: 25px;
+}
+
+
+
