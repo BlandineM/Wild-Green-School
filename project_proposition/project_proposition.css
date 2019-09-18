@@ -1,1 +1,20 @@
-.form-group {margin: 20px}
+:root {--maincolor: rgb(0, 196, 167)}
+
+.form-group {margin: 20px;
+
+}
+.btn {
+    width: 100%;
+    background-color: var(--maincolor);
+    border-color: var(--maincolor);
+}
+.btn:hover {
+    color: var(--maincolor);
+    background-color: white;
+    color: var(--maincolor);
+    border-color: var(--maincolor);
+}
+.form-control{
+border-color: var(--maincolor);
+border-style: solid;
+}
