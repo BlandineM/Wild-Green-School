@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-<body>
+
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -10,8 +10,7 @@
         <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-        
-        <link rel="stylesheet" href="stylepage3.css">
+        <link rel="stylesheet" href="stylecategory.css">
         <link href="https://fonts.googleapis.com/css?family=Raleway:400,700&display=swap" rel="stylesheet">
     
         <title>Wild Green School</title>
@@ -19,10 +18,10 @@
     
     <header>
         <!-----------------------------------NAVBAR------------------------------> 
-        <nav class="navbar navbar-expand-sm navbar-light bg-success ">
+        <nav class="navbar navbar-expand-sm navbar-light ">
     
             <!-------------------Wild_Code_Logo--------------->
-            <a class="navbar-brand" href="#">
+            <a class="navbar-brand" href="../homepage.html">
                 <img src="https://raw.githubusercontent.com/HarleyBurton/Wild-Green-School/nav/img/logo_main.png" width="100" height="" alt=""></a>
     
             <!-------------------Menu_Burger_Mobile--------------->
@@ -67,86 +66,103 @@
             </div>
         </nav>
     </header>
+<body>
     <main>
-        <article>
-            <!-- Menu pour retourner en arrière-->
-            <section>
-                <p>
-                    <a href="./index.html">Home</a>
-                    >
-                    <a href="">Campus</a>
-                    > 
-                    <a href="">Project</a>
-                </p>
-            </section>
-            <!-- Titre projet avec description-->
-            <section class="Titres">
-                    <h1>Project name</h1>
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.Tempora placeat aliquam inventore exercitationem atque sint illum ipsum dolore omnis ullam et?</p>
+        <!-- -------------------------------School and status filters -->
+        <form>
+            <div class="container">
+                <div class="row">
+                    <div class="form-group col-6">
+                        Campus
+                        <select class="form-control">
+                            <option>All</option>
+                            <option>Lille</option>
+                            <option>Marseille</option>
+                            <option>Paris</option>
+                            <option>La Loupe</option>
+                            <option>Lyon</option>
+                        </select>
+                    </div>
 
-            </section>
-            <!-- Les bulles Objectives etc-->
-            <section class="row mb-5 displayChange">
-                <div class="offset-1 col-11">
-                    <h2>Objectives</h2>
-                    <p class="offset-1">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    <div class="form-group col-6 margin-right">
+                        Project status
+                        <select class="form-control ">
+                            <option>All</option>
+                            <option>Ongoing projects</option>
+                            <option>Completed projects</option>
+                        </select>
+                    </div>
                 </div>
-            </section>
-            <section class="row mb-5 displayChange textAlignRight">
-                <div class=" col-11 offset-lg-1">
-                        <h2>Deadlines</h2>
-                    <p class="offset-1">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eius labore tempora recusandae dignissimos. Ea omnis fuga eum illo. Veniam, consequatur ut repellendus dolorum et suscipit quasi aliquam! Esse, et suscipit!</p>
-                </div>
-            </section>
-            <section class="row mb-5 displayChange">
-                <div class="offset-1 col-11">
-                    <h2>Budget</h2>
-                    <p class="offset-1">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                </div>
-            </section>
-            <section class="row mb-5 displayChange textAlignRight">
-                <div class=" col-11 offset--1">
-                    <h2>Lorem</h2>
-                    <p class="offset-1">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                </div>
-            </section>
-        </article>
-        <article>
-            <!-- Titre des autres projets-->
-            <div class="titre2">
-                <h2 class="">Les autres projets</h2>
             </div>
-            <!-- Cartes avec les autres projets-->
-            <section class="row">
-                <div class="cardPosition mt-5" style="width: 20rem;">
-                    <img src="./img/solar-panel.jpeg" class="card-img-top" alt="Solar panels">
-                    <div class="card-body">
-                        <h5 class="card-title">Other Project 1</h5>
-                        <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
-                        <a href="#" class="btn btn-primary">See this project</a>
-                    </div>
-                </div> 
-                <div class="cardPosition mt-5" style="width: 20rem;">
-                    <img src="./img/plant.jpg" class="card-img-top" alt="plant">
-                    <div class="card-body">
-                        <h5 class="card-title">Other Project 2</h5>
-                        <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
-                        <a href="#" class="btn btn-primary" >See this project</a>
-                    </div>
-                </div> 
-                <div class="Cardposition mt-5" style="width: 20rem;">
-                    <img src="./img/bees_1280x960.jpg" class="card-img-top" alt="Bees">
-                    <div class="card-body">
-                        <h5 class="card-title">Other project 3</h5>
-                        <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
-                        <a href="#" class="btn btn-primary">See this project</a>
-                    </div>
-                </div> 
-            </section>
-        </article>
-    </main>
-    <footer>
+        </form>
 
-    </footer>
+        <!-------------------categories-->
+        <div class="container category_container shadow">
+                <a href="../Page3.html">
+                    <section>
+                        <div class="row">
+    
+                            <div class="col-5 campus_name">Campus Name</div>
+                            <div class="col-5 project_status">Project status</div>
+                            <div class="col-2 fleche">></div>
+                            <div class="col-10 projectname">Project name</div>
+                            
+                        </div>
+                        
+                    </section>
+                </a>
+            </div>
+            <div class="container category_container shadow">
+                    <a href="../Page3.html">
+                        <section>
+                            <div class="row">
+        
+                                <div class="col-5 campus_name">Lille</div>
+                                <div class="col-5 project_status">On going project</div>
+                                <div class="col-2 fleche">></div>
+                                <div class="col-10 projectname">No more plastic bags!</div>
+                            </div>
+                            
+                        </section>
+                    </a>
+                </div>
+            
+                <div class="container category_container shadow">
+                        <a href="../Page3.html">
+                            <section>
+                                <div class="row">
+            
+                                    <div class="col-5 campus_name">Campus Name</div>
+                                    <div class="col-5 project_status">Project status</div>
+                                    <div class="col-2 fleche">></div>
+                                    <div class="col-10 projectname">Project name</div>
+                                    
+                                </div>
+                                
+                            </section>
+                        </a>
+                    </div>
+                    <div class="container category_container shadow">
+                            <a href="../Page3.html">
+                                <section>
+                                    <div class="row">
+                
+                                        <div class="col-5 campus_name">Campus Name</div>
+                                        <div class="col-5 project_status">Project status</div>
+                                        <div class="col-2 fleche">></div>
+                                        <div class="col-10 projectname">Project name</div>
+                                        
+                                    </div>
+                                    
+                                </section>
+                            </a>
+                        </div>
+
+    </main>
+
+
+
+
 </body>
+
 </html>

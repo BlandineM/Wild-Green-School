@@ -1,0 +1,75 @@
+* {
+    font-family: raleway;
+    text-align: justify;
+    margin: 0;
+    padding: 0;
+
+}
+
+p {
+    font-size: 15px;
+    margin: 1vw;
+    color: white;
+}
+
+h2 {
+    font-weight: bold;
+    font-size: 30px;
+}
+
+/*Mobil*/
+/*The project*/
+.bg_image {
+    visibility: hidden;
+    background: url(img/grass.png);
+    background-repeat: no-repeat;
+    color: white;
+    background-position: center;
+    background-size: cover;
+    height: 200px;
+    display: flex;
+    align-items: flex-end
+}
+
+#bg_opacity {
+    background-color: rgba(140, 146, 142, 0.8);
+    text-align: center;
+    width: 100%;
+    align-items: center;
+    visibility: visible;
+}
+
+
+/*Caroussel*/
+
+.carousel-caption {
+    color: black;
+    text-align: end;
+}
+
+.news {
+    margin: 5px;
+    height: 50%;
+}
+
+/*Destop*/
+@media screen and (min-width :961px) {
+    .bg_image {
+        visibility: visible;
+    }
+
+    h2 {
+        font-size: 35px;
+    }
+
+    P {
+        font-size: 20px;
+    }
+
+    .news {
+
+        margin: 5px auto;
+        width: 50%;
+        height: 50%;
+    }
+}

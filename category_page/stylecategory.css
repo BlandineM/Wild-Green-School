@@ -1,0 +1,38 @@
+:root{
+    --maincolor:rgb(0, 196, 167);
+    --secondcolor:  rgb(82, 82, 82);
+}
+
+*{
+    font-family: 'Raleway', sans-serif;
+}
+
+.category_container{
+    margin-bottom: 10px;
+    margin-bottom: 10px;
+    height: auto;
+}
+
+.project_status, .campus_name, .fleche{
+    display: flex;
+    color:  var(--secondcolor);
+    align-items: center;  
+    height: auto;
+}
+
+.fleche{font-size: 40px;
+    justify-content: center;
+}
+
+.margin-right{
+    margin-right: auto
+}
+
+.projectname{
+    
+    font-size: 2em;
+    margin-bottom: 10px;
+    color: var(--maincolor);
+}
+
+.navbar, .navbar-expand-sm, .navbar-light, .bg-success {background-color: var(--maincolor)}
