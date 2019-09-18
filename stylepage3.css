@@ -18,6 +18,9 @@ main :nth-child(2) section {
     text-align:center;
     width:400px;
     margin:auto;
+    color:green;
+    vertical-align:top;
+    
 }
 
 .titre2 {
@@ -37,7 +40,7 @@ h2 {
     height:240px;
 }
 
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 960px) {
     .displayChange {
         display:inline-block;
         width:30%;
@@ -60,6 +63,7 @@ h2 {
     }
     .Titres {
         padding:50px 0 0 0;
+        
     }
     .textAlignRight {
         text-align:left;
