@@ -1,6 +1,4 @@
-.news{
-    margin-top:50px;
-}
+
 
 *{
     font-family: raleway;
@@ -8,12 +6,16 @@
 }
 
 p{
-    font-size: 2vh;
+    font-size: 3vh;
     text-align: center;
     align-items: center;
-    margin: 1vh; 
+    margin: 1vw; 
+    color: white;
 }
-
+h2{
+    font-weight: bold;
+}
+/*Mobil*/
 /*The project*/ 
 .bg_image{
     background:url(img/grass.png);
@@ -41,6 +43,14 @@ p{
     text-align: center;
 }
 
+.news{
+    margin-top:50px;
+}
+
+/*Destop*/
+@media screen and (min-width :961px){
+    
+}
    
     
 
