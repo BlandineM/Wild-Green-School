@@ -72,6 +72,9 @@ hr {
     color: var(--maincolor);
 
 }
+.news img{
+    width: 100%;
+}
 
 /*Destop*/
 @media screen and (min-width :992px) {
