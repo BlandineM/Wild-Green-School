@@ -16,7 +16,7 @@
     background-color:var(--maincolor)
 }
 
-main :nth-child(2) section {
+.displayChange2{
     display:flex;
     justify-content:space-evenly;
 }
@@ -127,15 +127,14 @@ a {
     }
     .Titres {
         width: 400px;
-    }
-    main :first-child :nth-child(2) {
         display:inline-block;
     }
-    main :first-child :nth-child(5) {
+
+    .marginLeft {
         margin-left:390px;
     }
 
-    main :first-child :nth-child(2) p {
+    .projetdescription{
         width:100%;
         margin:auto;
         margin:20px 0 0 0;
