@@ -107,15 +107,17 @@ h2 {
     margin:30px auto;
 
 }
-
-A:hover {
-    color:var(--secondcolor); 
-    text-decoration: none; 
+.way a{
+    color:var(--maincolor);
+    text-decoration: none;
+}
+.way a:hover{
+    font-weight: 500;
+    color:var(--secondcolor);
 }
 
-a {
-    color:var(--maincolor)
-}
+
+
 
  
 @media screen and (min-width: 960px) {
