@@ -36,6 +36,7 @@ main :nth-child(2) section {
     padding:50px 0 50px 40px;
     
 }
+.projectdescription{width: 100%}
 .left {
     border-left-style:solid;
     border-color:var(--maincolor)
@@ -67,19 +68,58 @@ h2 {
 }
 
 .btn {
-    background-color:var(--maincolor)
+    background-color:var(--maincolor);
+    color:#ffffe9;
 }
 
 .card-body {
     height:278px;
+} 
+
+.btn_engagement_div {
+    text-align:center;
+}
+
+.btn_engagement {
+    margin:40px auto;
+    font-size:18px;
+    padding:10px;
+    font-weight:700;
+    color: white;
+}
+
+.btn_otherProject {
+    font-weight:700;
+    color: white;
+}
+
+
+.btn_engagement:hover {
+    color: var(--secondcolor)
+}
+
+.btn_otherProject:hover {
+    color: var(--secondcolor)
+}
+
+.firstArticle {
+    width:99%;
+    margin:30px auto;
+
 }
 .way a{
+    color:var(--maincolor);
     text-decoration: none;
 }
 .way a:hover{
     font-weight: 500;
+    color:var(--secondcolor);
 }
 
+
+
+
+ 
 @media screen and (min-width: 960px) {
     .displayChange {
         display:inline-block;
@@ -98,7 +138,7 @@ h2 {
     }
 
     main :first-child :nth-child(2) p {
-        width:70%;
+        width:100%;
         margin:auto;
         margin:20px 0 0 0;
     }
@@ -121,7 +161,21 @@ h2 {
 
 @media screen and (min-width: 1400px) {
     .displayChange {
-        width:35%;
+        width:37%;
+    }
+
+}
+
+@media screen and (min-width: 1600px) {
+    .displayChange {
+        width:39%;
+    }
+
+}
+
+@media screen and (min-width: 1800px) {
+    .displayChange {
+        width:40%;
     }
 
 }

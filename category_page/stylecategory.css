@@ -38,11 +38,18 @@
 .navbar, .navbar-expand-sm, .navbar-light, .bg-success {
     background-color: var(--maincolor)
 }
-.container a{
+a{
     text-decoration: none;
+    color: var(--maincolor);
     
 }
-.container a:hover{
+a:hover{
+    text-decoration: none;
     font-weight: 500;
+    color: var(--secondcolor);
     
+}
+.way{
+    width:99%;
+    margin:30px auto;
 }
