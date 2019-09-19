@@ -36,6 +36,7 @@ main :nth-child(2) section {
     padding:50px 0 50px 40px;
     
 }
+.projectdescription{width: 100%}
 .left {
     border-left-style:solid;
     border-color:var(--maincolor)
@@ -107,6 +108,14 @@ h2 {
         margin-left:390px;
     }
 
+<<<<<<< HEAD
+=======
+    main :first-child :nth-child(2) p {
+        width:100%;
+        margin:auto;
+        margin:20px 0 0 0;
+    }
+>>>>>>> 43b0f4181cb0854f6caba59adb7db16ac4e23c54
     .Titres {
         padding:50px 0 0 40px;
         
