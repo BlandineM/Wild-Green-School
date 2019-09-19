@@ -81,7 +81,7 @@ h2 {
 }
 
 .btn_engagement {
-    margin:50px auto 100px 0;
+    margin:40px auto;
     font-size:18px;
     padding:10px;
     font-weight:700;
@@ -92,6 +92,8 @@ h2 {
     font-weight:700;
     color: white;
 }
+
+
 .btn_engagement:hover {
     color: var(--secondcolor)
 }
@@ -99,6 +101,22 @@ h2 {
 .btn_otherProject:hover {
     color: var(--secondcolor)
 }
+
+.firstArticle {
+    width:99%;
+    margin:30px auto;
+
+}
+
+A:hover {
+    color:var(--secondcolor); 
+    text-decoration: none; 
+}
+
+a {
+    color:var(--maincolor)
+}
+
  
 @media screen and (min-width: 960px) {
     .displayChange {
