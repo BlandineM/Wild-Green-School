@@ -1,6 +1,7 @@
 idées features:
 - Faire des quetes que chaque utilisateurs validera.
 - le nombre de quete donnera des badges
+- Mettre un bouton permettant de contacter les auteurs/organisateurs du projet pour leur proposer des idées afin de rendre le projet meilleur
 
 idées projets:
 - chacun doit remplacer les bouteilles a usages unique avec des gourdes.
