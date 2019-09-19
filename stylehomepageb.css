@@ -1,5 +1,8 @@
-:root{
-    --maincolor:40, 167, 69
+:root {
+    --maincolor: rgb(0, 196, 167);
+    --opacity: rgba(82, 82, 82, 0.8);
+    --write:rgb(82, 82, 82);
+
 }
 
 * {
@@ -23,6 +26,11 @@ h2 {
 
 /*Mobil*/
 /*The project*/
+
+.navbar {
+    background-color: var(--maincolor);
+}
+
 .bg_image {
     background: url(img/grass.png);
     background-repeat: no-repeat;
@@ -35,17 +43,17 @@ h2 {
 }
 
 #bg_opacity {
-    background-color: rgba(var(--maincolor), 0.8);
+    background-color: var(--opacity);
     text-align: center;
     width: 100%;
     align-items: center;
-    visibility: visible;
+
 }
 
-.title{
+.title {
     width: 50%;
     margin: auto;
-    color: rgba(40,167,69);
+    color: var(--maincolor);
 }
 
 /*Caroussel*/
@@ -59,8 +67,9 @@ h2 {
     margin: 10px;
     height: 50%;
 }
-hr{
-    color: rgba(40,167,69);
+
+hr {
+    color: var(--maincolor);
 
 }
 
@@ -85,11 +94,24 @@ hr{
         height: 50%;
     }
 
-    hr{
+    hr {
         visibility: hidden;
     }
-    .title{
+
+    .title {
         width: 50%;
         margin: auto;
+    }
+
+    .container1 {
+        width: 80%;
+        margin: 0 auto;
+        color: var(--write);
+    }
+
+    .container2 {
+        width: 80%;
+        margin: 0 auto;
+        color: var(--write);
     }
 }

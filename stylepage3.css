@@ -73,6 +73,12 @@ h2 {
 .card-body {
     height:278px;
 }
+.way a{
+    text-decoration: none;
+}
+.way a:hover{
+    font-weight: 500;
+}
 
 @media screen and (min-width: 960px) {
     .displayChange {

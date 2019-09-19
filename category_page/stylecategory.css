@@ -35,4 +35,14 @@
     color: var(--maincolor);
 }
 
-.navbar, .navbar-expand-sm, .navbar-light, .bg-success {background-color: var(--maincolor)}
+.navbar, .navbar-expand-sm, .navbar-light, .bg-success {
+    background-color: var(--maincolor)
+}
+.container a{
+    text-decoration: none;
+    
+}
+.container a:hover{
+    font-weight: 500;
+    
+}
