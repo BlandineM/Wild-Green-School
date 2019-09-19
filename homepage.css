@@ -1,15 +1,43 @@
-section div ul {
+footer{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: forestgreen;
+    color: white;
+}
+
+#categorie1{
+    text-align: center;
+    margin-top:30px;
+    margin-bottom: 30px;
+}
+#categorie1 img{
+    width: 30%
+}
+
+
+#categotie2{
+    display: flex;
+    flex-direction: column;
+}
+#categorie2 ul {
     list-style-type:none;
-    margin-left:0;
-    padding-left:0;
+    margin: auto;
+    padding: 0;
+    text-align: center;
 }
- li {
-   
-    margin-bottom:10px;
-    }
-.n {
-    display: flex;
+
+#categorie1 a, #categorie2 a{
+    color: white;
 }
-.flexer {
+
+.social_media{
+    list-style-type:none;
     display: flex;
+    flex-direction: row;
+    margin: 0 auto;
+    margin-top: 15px;
+    margin-bottom:30px;
+    padding-left: 0;
+
 }
