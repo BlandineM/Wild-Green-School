@@ -1,10 +1,20 @@
+:root{
+    --maincolor:rgb(0, 196, 167);
+    --secondcolor:  rgb(82, 82, 82);
+}
+
+
 * {
     padding:0;
     margin:0;
     font-family: 'Raleway', sans-serif;
     box-sizing:border-box;
+    color:var(--secondcolor)
 }
 
+.navbar {
+    background-color:var(--maincolor)
+}
 
 main :nth-child(2) section {
     display:flex;
@@ -18,6 +28,22 @@ main :nth-child(2) section {
     text-align:center;
     width:400px;
     margin:auto;
+    color:var(--secondcolor);
+    vertical-align:top;
+    text-align:left;
+}
+.Titres {
+    padding:50px 0 50px 40px;
+    
+}
+.left {
+    border-left-style:solid;
+    border-color:var(--maincolor)
+}
+
+.right {
+    border-right-style:solid;
+    border-color:var(--maincolor)
 }
 
 .titre2 {
@@ -28,7 +54,6 @@ main :nth-child(2) section {
     text-align:right;
 }
 
-
 h2 {
     font-size:30px;
 }
@@ -37,7 +62,19 @@ h2 {
     height:240px;
 }
 
-@media screen and (min-width: 1200px) {
+.card-body {
+    text-align:center;
+}
+
+.btn {
+    background-color:var(--maincolor)
+}
+
+.card-body {
+    height:278px;
+}
+
+@media screen and (min-width: 960px) {
     .displayChange {
         display:inline-block;
         width:30%;
@@ -48,23 +85,28 @@ h2 {
         display:inline-block;
     }
     main :first-child :nth-child(5) {
-        margin-left:400px;
+        margin-left:390px;
     }
-    main :nth-child(2) {
-        text-align:center;
-    }
+
     main :first-child :nth-child(2) p {
         width:70%;
         margin:auto;
         margin:20px 0 0 0;
     }
     .Titres {
-        padding:50px 0 0 0;
+        padding:50px 0 0 40px;
+        
     }
     .textAlignRight {
         text-align:left;
     }
-
+    .textAlignLeft {
+        text-align:left;
+    }
+    .right {
+        border-right-style:none;
+        border-left-style:solid;
+    }
     
 }
 
