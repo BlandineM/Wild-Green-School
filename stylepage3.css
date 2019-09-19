@@ -67,13 +67,29 @@ h2 {
 }
 
 .btn {
-    background-color:var(--maincolor)
+    background-color:var(--maincolor);
+    color:#ffffe9;
 }
 
 .card-body {
     height:278px;
+} 
+
+.btn_engagement_div {
+    text-align:center;
 }
 
+.btn_engagement {
+    margin:50px auto 100px 0;
+    font-size:18px;
+    padding:10px;
+    font-weight:700;
+}
+
+.btn_otherProject {
+    font-weight:700;
+}
+ 
 @media screen and (min-width: 960px) {
     .displayChange {
         display:inline-block;
@@ -91,11 +107,6 @@ h2 {
         margin-left:390px;
     }
 
-    main :first-child :nth-child(2) p {
-        width:70%;
-        margin:auto;
-        margin:20px 0 0 0;
-    }
     .Titres {
         padding:50px 0 0 40px;
         
@@ -115,7 +126,21 @@ h2 {
 
 @media screen and (min-width: 1400px) {
     .displayChange {
-        width:35%;
+        width:37%;
+    }
+
+}
+
+@media screen and (min-width: 1600px) {
+    .displayChange {
+        width:39%;
+    }
+
+}
+
+@media screen and (min-width: 1800px) {
+    .displayChange {
+        width:40%;
     }
 
 }
