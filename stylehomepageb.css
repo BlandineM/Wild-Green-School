@@ -61,6 +61,7 @@ h2 {
 .carousel-caption {
     color: black;
     text-align: end;
+    background-color: var(--opacity);
 }
 
 .news {
@@ -71,6 +72,9 @@ h2 {
 hr {
     color: var(--maincolor);
 
+}
+.news img{
+    width: 100%;
 }
 
 
