@@ -85,10 +85,19 @@ h2 {
     font-size:18px;
     padding:10px;
     font-weight:700;
+    color: white;
 }
 
 .btn_otherProject {
     font-weight:700;
+    color: white;
+}
+.btn_engagement:hover {
+    color: var(--secondcolor)
+}
+
+.btn_otherProject:hover {
+    color: var(--secondcolor)
 }
  
 @media screen and (min-width: 960px) {
@@ -108,14 +117,11 @@ h2 {
         margin-left:390px;
     }
 
-<<<<<<< HEAD
-=======
     main :first-child :nth-child(2) p {
         width:100%;
         margin:auto;
         margin:20px 0 0 0;
     }
->>>>>>> 43b0f4181cb0854f6caba59adb7db16ac4e23c54
     .Titres {
         padding:50px 0 0 40px;
         
