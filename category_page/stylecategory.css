@@ -49,6 +49,7 @@ a:hover{
     color: var(--secondcolor);
     
 }
+.category{width: auto}
 .way{
     width:99%;
     margin:30px auto;
