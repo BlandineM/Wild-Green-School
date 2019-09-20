@@ -67,9 +67,9 @@ h2 {
     text-align:center;
 }
 
-.btn {
+main .btn {
     background-color:var(--maincolor);
-    color:#ffffe9;
+    color:white;
 }
 
 .card-body {
@@ -152,7 +152,7 @@ footer{
     color: white;
 }
 
-.social_media{
+.social_media li{
     list-style-type:none;
     display: flex;
     flex-direction: row;
@@ -162,7 +162,7 @@ footer{
     padding-left: 0;
     filter: grayscale(1);
 }
-.social_media:hover{
+.social_media li:hover{
 
     filter: grayscale(0);
 }
