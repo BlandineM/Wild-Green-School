@@ -88,7 +88,7 @@ footer{
     color: white;
 }
 
-.social_media{
+.social_media {
     list-style-type:none;
     display: flex;
     flex-direction: row;
@@ -96,12 +96,14 @@ footer{
     margin-top: 15px;
     margin-bottom:30px;
     padding-left: 0;
-    -webkit-filter: grayscale(1);
+    
 }
-.social_media:hover{
-    -webkit-transform:scale(1.25);
-    -moz-transform:scale(1.25);
-    -webkit-filter: grayscale(0);
+.social_media li{
+    filter: grayscale(1);
+}
+.social_media li:hover{
+
+    filter: grayscale(0);
 }
 
 a{
