@@ -67,12 +67,6 @@ h2 {
 .card-body {
     text-align:center;
 }
-
-.btn {
-    background-color:var(--maincolor);
-    color:#ffffe9;
-}
-
 .card-body {
     height:278px;
 } 
@@ -87,11 +81,13 @@ h2 {
     padding:10px;
     font-weight:700;
     color: white;
+    background-color:var(--maincolor);
 }
 
 .btn_otherProject {
     font-weight:700;
     color: white;
+    background-color:var(--maincolor);
 }
 
 
