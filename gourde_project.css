@@ -73,6 +73,7 @@ h2 {
     color:#ffffe9;
 }
 
+
 .card-body {
     height:278px;
 } 
@@ -122,16 +123,14 @@ h2 {
 }
 
 .bg_image {
-    background: url(./img/recycling-bins.jpg);
+    background: url(./img/gourde.jpeg);
     background-repeat: no-repeat;
     color: var(--white);
     background-position: center;
     background-size: cover;
     height: 200px;
     display: flex;
-    align-items: flex-end;
-    object-fit: cover;
-
+    align-items: flex-end
 }
 
 .bg_opacity {
@@ -201,3 +200,5 @@ h2 {
     .displayChange {
         width:40%;
     }
+
+}
