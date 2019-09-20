@@ -134,7 +134,7 @@ h2 {
     background-size: cover;
     height: 200px;
     display: flex;
-    align-items: flex-end
+    align-items: flex-end;
 }
 
 .bg_opacity {
@@ -146,6 +146,11 @@ h2 {
     padding-top: 10px;
         
 }
+/* alignement campus name in nav bar*/
+.campusName{
+    margin-left: 0 !important;
+}
+/* end alignement campus name in nav bar*/
 
 /*FOOTER*/
 footer{

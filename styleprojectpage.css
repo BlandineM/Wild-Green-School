@@ -68,10 +68,7 @@ h2 {
     text-align:center;
 }
 
-.btn {
-    background-color:var(--maincolor);
-    color:#ffffe9;
-}
+
 .btn li{
     background-color:none;
     color:#ffffe9;
@@ -92,11 +89,13 @@ h2 {
     padding:10px;
     font-weight:700;
     color: white;
+    background-color:var(--maincolor);
 }
 
 .btn_otherProject {
     font-weight:700;
     color: white;
+    background-color:var(--maincolor);
 }
 
 

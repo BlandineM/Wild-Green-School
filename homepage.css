@@ -12,6 +12,12 @@ footer{
     color: white;
 }
 
+/* alignement campus name in nav bar*/
+.campusName{
+    margin-left: 0 !important;
+}
+/* end alignement campus name in nav bar*/
+
 #categorie1{
     text-align: center;
     margin-top:30px;
