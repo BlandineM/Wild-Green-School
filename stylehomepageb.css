@@ -21,6 +21,7 @@ p {
 h2 {
     font-weight: bold;
     font-size: 30px;
+    text-align: center;
 }
 
 /*Mobil*/
@@ -54,6 +55,11 @@ h2 {
     margin: auto;
     color: var(--maincolor);
 }
+/* alignement campus name in nav bar*/
+.campusName{
+    margin-left: 0 !important;
+}
+/* end alignement campus name in nav bar*/
 
 /*Caroussel*/
 
@@ -88,6 +94,7 @@ hr {
 
     h2 {
         font-size: 35px;
+        text-align: center;
     }
 
     P {

@@ -146,8 +146,13 @@ h2 {
     padding-top: 10px;
         
 }
+/* alignement campus name in nav bar*/
+.campusName{
+    margin-left: 0 !important;
+}
+/* end alignement campus name in nav bar*/
 
-
+}
  
 @media screen and (min-width: 960px) {
     .displayChange {
