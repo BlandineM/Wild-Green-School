@@ -71,6 +71,28 @@ a:hover{
     font-weight: 700;
     color: var(--secondcolor);
 }
+/* test liens category*/
+.menu_projet{ 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.project_category{
+    display: flex;
+    width: 40%;
+    margin: 30px 5%;
+    text-align: center;
+    background-color: none;
+    height: 20vh;
+    font-size: 3em;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    }
+
+/* test liens category*/
+
 
 @media screen and (min-width: 992px){
 
