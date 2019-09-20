@@ -134,7 +134,7 @@ h2 {
     background-size: cover;
     height: 200px;
     display: flex;
-    align-items: flex-end
+    align-items: flex-end;
 }
 
 .bg_opacity {
