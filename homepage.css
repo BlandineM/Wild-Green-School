@@ -1,7 +1,7 @@
 :root {
     --maincolor: rgb(0, 196, 167);
     --opacity: rgba(82, 82, 82, 0.8);
-    --write:rgb(82, 82, 82);
+    --secondcolor:rgb(82, 82, 82);
 }
 footer{
     width: 100%;
@@ -85,10 +85,16 @@ a:hover{
     text-align: center;
     background-color: none;
     height: 20vh;
-    font-size: 3em;
+    font-size: 2em;
     align-items: center;
     justify-content: center;
     border-radius: 10px;
+    flex-direction: column;
+    color: var(--secondcolor)
+    }
+
+    .desciption_category{
+        color: var(--secondcolor);
     }
 
 /* test liens category*/
@@ -144,6 +150,37 @@ a:hover{
     .social_media img{
         width: 60%;
     }
+   
 
 }
+@media screen and (max-width: 992px){
+ /* test liens category*/
+ .menu_projet{ 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+    margin: 10px auto;
+    flex-direction: column;
+    
+}
+.project_category{
+    display: flex;
+    width: 100%;
+    margin: 10px auto;
+    text-align: center;
+    background-color: none;
+    height: 20vh;
+    font-size: 2em;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    flex-direction: column;
+    }
 
+    .desciption_category{
+        color: var(--secondcolor);
+    }
+
+/* test liens category*/
+}
