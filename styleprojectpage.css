@@ -72,6 +72,10 @@ h2 {
     background-color:var(--maincolor);
     color:#ffffe9;
 }
+.btn li{
+    background-color:none;
+    color:#ffffe9;
+}
 
 
 .card-body {
@@ -123,7 +127,7 @@ h2 {
 }
 
 .bg_image {
-    background: url(./coffee-beans.jpg);
+    background: url(./img/coffee-beans.jpg);
     background-repeat: no-repeat;
     color: var(--white);
     background-position: center;
@@ -139,6 +143,7 @@ h2 {
     width: 100%;
     align-items: center;
     padding-left: 40px;
+    padding-top: 10px;
         
 }
 
