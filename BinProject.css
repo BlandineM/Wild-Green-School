@@ -1,0 +1,201 @@
+:root{
+    --maincolor:rgb(0, 196, 167);
+    --secondcolor:  rgb(82, 82, 82);
+    --white: rgb(255, 255, 255);
+}
+
+
+* {
+    padding:0;
+    margin:0;
+    font-family: 'Raleway', sans-serif;
+    box-sizing:border-box;
+    color:var(--secondcolor)
+}
+
+.navbar {
+    background-color:var(--maincolor)
+}
+
+.displayChange2{
+    display:flex;
+    justify-content:space-evenly;
+}
+
+.Titres {
+    display:flex;
+    align-content: center;
+    flex-direction: column;
+    text-align:center;
+    width:auto;
+    margin:auto;
+    color:var(--secondcolor);
+    vertical-align:top;
+    text-align:left;
+}
+.Titres {
+    padding:50px 0 50px 40px;
+    
+}
+.projectdescription{width: 100%}
+.left {
+    border-left-style:solid;
+    border-color:var(--maincolor)
+}
+
+.right {
+    border-right-style:solid;
+    border-color:var(--maincolor)
+}
+
+.titre2 {
+    text-align:center;
+}
+
+.textAlignRight {
+    text-align:right;
+}
+
+h2 {
+    font-size:30px;
+}
+
+.card-img-top {
+    height:240px;
+}
+
+.card-body {
+    text-align:center;
+}
+
+.btn {
+    background-color:var(--maincolor);
+    color:#ffffe9;
+}
+
+.card-body {
+    height:278px;
+} 
+
+.btn_engagement_div {
+    text-align:center;
+}
+
+.btn_engagement {
+    margin:40px auto;
+    font-size:18px;
+    padding:10px;
+    font-weight:700;
+    color: white;
+}
+
+.btn_otherProject {
+    font-weight:700;
+    color: white;
+}
+
+
+.btn_engagement:hover {
+    color: var(--secondcolor)
+}
+
+.btn_otherProject:hover {
+    color: var(--secondcolor)
+}
+
+.firstArticle {
+    width:100%;
+    margin:30px auto;
+
+}
+.way{
+    padding-left: 40px;
+}
+
+.way a{
+    color:var(--maincolor);
+    text-decoration: none;
+}
+.way a:hover{
+    font-weight: 500;
+    color:var(--secondcolor);
+}
+
+.bg_image {
+    background: url(./img/recycling-bins.jpg);
+    background-repeat: no-repeat;
+    color: var(--white);
+    background-position: center;
+    background-size: cover;
+    height: 200px;
+    display: flex;
+    align-items: flex-end
+}
+
+.bg_opacity {
+    background-color: rgba(255, 255, 255, 0.8);
+    text-align: left;
+    width: 100%;
+    align-items: center;
+    padding-left: 40px;
+        
+}
+
+
+ 
+@media screen and (min-width: 960px) {
+    .displayChange {
+        display:inline-block;
+        width:30%;
+        padding:40px 0;
+        vertical-align:top;
+    }
+    .Titres {
+        width: 400px;
+        display:inline-block;
+    }
+
+    .marginLeft {
+        margin-left:390px;
+    }
+
+    .projetdescription{
+        width:100%;
+        margin:auto;
+        margin:20px 0 0 0;
+    }
+    .Titres {
+        padding:50px 0 0 40px;
+        
+    }
+    .textAlignRight {
+        text-align:left;
+    }
+    .textAlignLeft {
+        text-align:left;
+    }
+    .right {
+        border-right-style:none;
+        border-left-style:solid;
+    }
+    
+}
+
+@media screen and (min-width: 1400px) {
+    .displayChange {
+        width:37%;
+    }
+
+}
+
+@media screen and (min-width: 1600px) {
+    .displayChange {
+        width:39%;
+    }
+
+}
+
+@media screen and (min-width: 1800px) {
+    .displayChange {
+        width:40%;
+    }
