@@ -1,0 +1,162 @@
+:root{
+    --maincolor:rgb(0, 196, 167);
+    --secondcolor:  rgb(82, 82, 82);
+}
+
+*{
+    font-family: 'Raleway', sans-serif;
+}
+
+.category_container{
+    margin-bottom: 10px;
+    margin-bottom: 10px;
+    height: auto;
+}
+
+.project_status, .campus_name, .fleche{
+    display: flex;
+    color:  var(--secondcolor);
+    align-items: center;  
+    height: auto;
+}
+
+.fleche{font-size: 40px;
+    justify-content: center;
+}
+
+.margin-right{
+    margin-right: auto
+}
+
+.projectname{
+    
+    font-size: 2em;
+    margin-bottom: 10px;
+    color: var(--maincolor);
+}
+
+.navbar, .navbar-expand-sm, .navbar-light, .bg-success {
+    background-color: var(--maincolor)
+}
+a{
+    text-decoration: none;
+    color: var(--maincolor);
+    
+}
+a:hover{
+    text-decoration: none;
+    font-weight: 500;
+    color: var(--secondcolor);
+    
+}
+.way{
+    width:99%;
+    margin:30px auto;
+}
+/*Footer*/
+
+footer{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: var(--maincolor);
+    color: white;
+}
+
+#categorie1{
+    text-align: center;
+    margin-top:30px;
+    margin-bottom: 30px;
+}
+#categorie1 img{
+    width: 15%
+}
+
+
+#categotie2{
+    display: flex;
+    flex-direction: column;
+}
+#categorie2 ul {
+    list-style-type:none;
+    margin: auto;
+    padding: 0;
+    text-align: center;
+}
+
+#categorie1 a, #categorie2 a{
+    color: white;
+}
+
+.social_media {
+    list-style-type:none;
+    display: flex;
+    flex-direction: row;
+    margin: 0 auto;
+    margin-top: 15px;
+    margin-bottom:30px;
+    padding-left: 0;
+    
+}
+.social_media li{
+    filter: grayscale(1);
+}
+.social_media li:hover{
+
+    filter: grayscale(0);
+}
+
+a{
+    text-decoration: none;  
+    
+}
+a:hover{
+    text-decoration: none;
+    font-weight: 700;
+    color: var(--secondcolor);
+}
+
+@media screen and (min-width: 992px){
+
+    footer{
+        
+        padding-top: 0;
+        padding-bottom: 0;
+        align-items: center;
+    }
+
+    #categorie1{
+    width: 150px;
+    }
+    #categorie1 img {
+        width: 60%;
+    }
+    #categorie2{
+        padding-right: 72px;
+    }
+
+    #categorie2 ul{
+        display: flex;
+        flex-direction:row;
+        flex-wrap: nowrap;
+        width: 125%;
+    }
+
+    #categorie2 li{
+        margin: auto;
+        margin-right: 5%;
+    }
+
+    .social_media{
+        list-style-type:none;
+        display: flex;
+        flex-direction: row;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+
+    .social_media img{
+        width: 60%;
+    }
+
+}

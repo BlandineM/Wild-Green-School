@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-----------------------------------BOOTSTRAP/JS------------------------------>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
+    </script>
+    <link rel="stylesheet" href="stylecategory.css">
+    <link href="https://fonts.googleapis.com/css?family=Raleway:400,500,600,700&display=swap" rel="stylesheet">
+
+    <title>WGS - Project</title>
+</head>
+
+<header>
+    <!-----------------------------------NAVBAR------------------------------>
+    <nav class="navbar navbar-expand-sm navbar-dark ">
+
+        <!-------------------Wild_Code_Logo--------------->
+        <a class="navbar-brand" href="homepage.html">
+            <img src="https://raw.githubusercontent.com/HarleyBurton/Wild-Green-School/nav/img/logo_main.png"
+                width="100" height="" alt=""></a>
+
+        <!-------------------Menu_Burger_Mobile--------------->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon "></span>
+        </button>
+
+        <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+
+            <!----------------- Dropdown_Campus ---------------->
+            <ul class="nav navbar-nav">
+                <li class="dropdown"><a href="#" class="nav-link dropdown-toggle text-white"
+                        data-toggle="dropdown">Campus</a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+
+                        <li><a class="dropdown-item" href="#">My campus</a></li>
+                        <li><a class="dropdown-item" href="#">Other campus</a></li>
+                    </ul>
+                </li>
+                <!----------------- Dropdown_PROJECT ---------------->
+                <li class="dropdown"><a href="#" class="nav-link dropdown-toggle text-white"
+                        data-toggle="dropdown">Project</a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+
+                        <li><a class="dropdown-item" href="./category_page/category_page.html">In progress</a></li>
+                        <li><a class="dropdown-item" href="#">Completed</a></li>
+                        <li><a class="dropdown-item" href="#">Vote</a></li>
+                        <li><a class="dropdown-item" href="#">Propose</a></li>
+                    </ul>
+                </li>
+                <!----------------- SOLO_LINK ---------------->
+                <li><a class="nav-link text-white" href="#">Blog</a></li>
+                <li><a class="nav-link text-white" href="#">Contact</a></li>
+
+                <!----------------- CITY ---------------->
+                <li class="navbar-text text-white ml-3 mr-3">
+                    LILLE
+                </li>
+                <!----------------- PROFILE_PIC ---------------->
+                <li class="profile-nav-img">
+                    <img class="rounded-circle"
+                        src="https://raw.githubusercontent.com/HarleyBurton/Wild-Green-School/nav/img/profil_pic.jpg"
+                        width="50" />
+                </li>
+            </ul>
+        </div>
+    </nav>
+</header>
+
+<body>
+    <main>
+        <!-- Menu pour retourner en arrière-->
+        <section>
+            <p class="way">
+                <a href="../homepage.html">Home</a>
+                >
+                <a href="./category_page.html">Campus</a>
+
+            </p>
+        </section>
+        <!-- -------------------------------School and status filters -->
+        <form>
+            <div class="container">
+                <div class="row">
+                    <div class="form-group col-6">
+                        Campus
+                        <select class="form-control">
+                            <option>All</option>
+                            <option>Lille</option>
+                            <option>Marseille</option>
+                            <option>Paris</option>
+                            <option>La Loupe</option>
+                            <option>Lyon</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group col-6 margin-right">
+                        Project status
+                        <select class="form-control ">
+                            <option>All</option>
+                            <option>Ongoing projects</option>
+                            <option>Completed projects</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+        </form>
+
+        <!-------------------categories-->
+        <div class="container category_container shadow">
+            <a href="../gourde_project.html">
+                <section>
+                    <div class="row">
+
+                        <div class="col-5 campus_name">All</div>
+                        <div class="col-5 project_status">Proposed Project</div>
+                        <div class="col-2 fleche">></div>
+                        <div class="col-10 projectname">Make using a gourd the norm</div>
+
+                    </div>
+
+                </section>
+            </a>
+        </div>
+        <div class="container category_container shadow">
+            <a href="../BinProject.html">
+                <section>
+                    <div class="row">
+
+                        <div class="col-5 campus_name">Lille</div>
+                        <div class="col-5 project_status">Proposed Project</div>
+                        <div class="col-2 fleche">></div>
+                        <div class="col-10 projectname">No more plastic bags!</div>
+                    </div>
+
+                </section>
+            </a>
+        </div>
+
+        <div class="container category_container shadow">
+            <a href="../Project_page_idea.html">
+                <section>
+                    <div class="row">
+
+                        <div class="col-5 campus_name">Lille</div>
+                        <div class="col-5 project_status">Proposed Project</div>
+                        <div class="col-2 fleche">></div>
+                        <div class="col-10 projectname">Automatic coffe machine</div>
+
+                    </div>
+
+                </section>
+            </a>
+        </div>
+        <div class="container category_container shadow">
+            <a href="../Page3.html">
+                <section>
+                    <div class="row">
+
+                        <div class="col-5 campus_name">Campus Name</div>
+                        <div class="col-5 project_status">Project status</div>
+                        <div class="col-2 fleche">></div>
+                        <div class="col-10 projectname">Project name</div>
+
+                    </div>
+
+                </section>
+            </a>
+        </div>
+
+    </main>
+    <!--------------------------FOOTER--------------------->
+    <footer>
+        <div id="categorie1">
+            <a href="https://www.wildcodeschool.com/fr-FR"><img
+                    src="https://www.wildcodeschool.com/assets/logo_white-b3ba5f88186df8d04f5ef8be4c3cc057a49f77b25b2359c4f4b3b13c53e5aeb8.png"></a>
+        </div>
+
+        <div id="categorie2">
+            <ul>
+                <li><a href="#"> About Us</a></li>
+                <li><a href="#"> Contact Us</a></li>
+                <li><a href="#"> F.A.Q</a></li>
+                <li><a href="#">Legal mentions</a></li>
+            </ul>
+        </div>
+        <ul class="social_media">
+            <li><a class="btn btn-block btn-social " href='https://www.facebook.com/wildcodeschool'> <img
+                        src="https://img.icons8.com/color/48/000000/facebook.png" class="rounded float-left" alt=""
+                        title="Join us on Facebook"> </a> <span class="fa fa-facebook"> </span></li>
+            <li><a class="btn btn-block btn-social" href='https://twitter.com/wildcodeschool'> <img
+                        src="https://img.icons8.com/color/48/000000/twitter.png" class="rounded float-left" alt=""
+                        title="Join us on Twitter"> </a> <span class="fa fa-twitter"> </span></li>
+            <li><a class="btn btn-block btn-social " href='https://www.linkedin.com/school/10387519'> <img
+                        src="https://img.icons8.com/color/48/000000/linkedin.png" class="rounded float-left" alt=""
+                        title="Join us on Linkedin"> </a> <span class="fa fa-linkedin"> </span></li>
+            <li><a class="btn btn-block btn-social" href='https://www.instagram.com/wildcodeschool/'> <img
+                        src="https://img.icons8.com/nolan/48/000000/instagram-new.png" class="rounded float-left" alt=""
+                        title="Join us on instagram"> </a> <span class="fa fa-instagram"> </span></li>
+        </ul>
+
+    </footer>
+
+
+
+</body>
+
+</html>

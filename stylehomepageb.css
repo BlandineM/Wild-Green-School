@@ -1,0 +1,131 @@
+:root {
+    --maincolor: rgb(0, 196, 167);
+    --opacity: rgba(82, 82, 82, 0.8);
+    --write:rgb(82, 82, 82);
+
+}
+
+* {
+    font-family: raleway;
+    margin: 0;
+    padding: 0;
+
+}
+
+p {
+    font-size: 15px;
+    margin: 1vw;
+    color: white;
+}
+
+h2 {
+    font-weight: bold;
+    font-size: 30px;
+    text-align: center;
+}
+
+/*Mobil*/
+/*The project*/
+
+.navbar {
+    background-color: var(--maincolor);
+}
+
+.bg_image {
+    background: url(img/grass.png);
+    background-repeat: no-repeat;
+    color: white;
+    background-position: center;
+    background-size: cover;
+    height: 200px;
+    display: flex;
+    align-items: flex-end
+}
+
+#bg_opacity {
+    background-color: var(--opacity);
+    text-align: center;
+    width: 100%;
+    align-items: center;
+
+}
+
+.title {
+    width: 50%;
+    margin: auto;
+    color: var(--maincolor);
+}
+/* alignement campus name in nav bar*/
+.campusName{
+    margin-left: 0 !important;
+}
+/* end alignement campus name in nav bar*/
+
+/*Caroussel*/
+
+.carousel-caption {
+    color: black;
+    text-align: center;
+    background-color: var(--opacity);
+}
+
+.news {
+    margin: 10px;
+    height: 50%;
+}
+
+hr {
+    color: var(--maincolor);
+
+}
+.news img{
+    width: 100%;
+    object-fit: cover;
+    height: 50vh;
+    
+}
+
+
+/*Destop*/
+@media screen and (min-width :992px) {
+    .bg_image {
+        visibility: visible;
+    }
+
+    h2 {
+        font-size: 35px;
+        text-align: center;
+    }
+
+    P {
+        font-size: 20px;
+    }
+
+    .news {
+
+        margin: 5px auto;
+        width: 50%;
+        height: 50%;
+    }
+
+    hr {
+        visibility: hidden;
+    }
+
+    .title {
+        width: 50%;
+        margin: auto;
+    }
+
+    .container1 {
+        width: 80%;
+        margin: 0 auto;
+        color: var(--write);
+    }
+
+    .container2 {
+        width: 80%;
+        margin: 0 auto;
+        color: var(--write);
+    }
+}
