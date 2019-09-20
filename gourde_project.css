@@ -68,7 +68,7 @@ h2 {
     text-align:center;
 }
 
-.btn {
+.btn_otherProject, .btn_engagement {
     background-color:var(--maincolor);
     color:#ffffe9;
 }
@@ -152,7 +152,125 @@ h2 {
 }
 /* end alignement campus name in nav bar*/
 
+/*FOOTER*/
+footer{
+    width: 100%;
+    display: flex;
+    
+    flex-direction: column;
+    background-color: var(--maincolor);
+    color: white;
 }
+
+#categorie1{
+    text-align: center;
+    margin-top:30px;
+    margin-bottom: 30px;
+}
+#categorie1 img{
+    width: 15%
+}
+
+
+#categotie2{
+    display: flex;
+    flex-direction: column;
+}
+#categorie2 ul {
+    list-style-type:none;
+    margin: auto;
+    padding: 0;
+    text-align: center;
+}
+
+#categorie1 a, #categorie2 a{
+    color: white;
+}
+
+.social_media {
+    list-style-type:none;
+    display: flex;
+    flex-direction: row;
+    margin: 0 auto;
+    margin-top: 15px;
+    margin-bottom:30px;
+    padding-left: 0;
+    
+}
+.social_media li{
+    filter: grayscale(1);
+}
+.social_media li:hover{
+
+    filter: grayscale(0);
+}
+
+a{
+    text-decoration: none;
+    
+    
+}
+a:hover{
+    text-decoration: none;
+    font-weight: 700;
+    color: var(--secondcolor);
+}
+.btn-social{
+    background-color: none;
+}
+@media screen and (min-width: 992px){
+
+    footer{
+        width: 100%;
+        padding-top: 0;
+        padding-bottom: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color:var(--maincolor);
+        color: white;
+    
+    }
+
+    #categorie1{
+    width: 150px;
+    }
+    #categorie1 img {
+       
+        width: 60%;
+    }
+    #categorie2{
+        padding-right: 72px;
+    }
+
+
+    #categorie2 ul{
+
+        display: flex;
+        flex-direction:row;
+        flex-wrap: nowrap;
+        width: 125%;
+    }
+
+    #categorie2 li{
+        margin: auto;
+        margin-right: 5%;
+    }
+
+    .social_media{
+        list-style-type:none;
+        display: flex;
+        flex-direction: row;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+
+    .social_media img{
+        width: 60%;
+    }
+
+}
+
  
 @media screen and (min-width: 960px) {
     .displayChange {
